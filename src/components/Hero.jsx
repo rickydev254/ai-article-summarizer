@@ -5,12 +5,12 @@ const Hero = () => {
     <header className='w-full flex
     justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-        <img src={logo} alt="sumz_logo" 
+        <img src="#" alt="sum_logo" 
         className='w-28 object-contain'/>
 
         <button
         type='button'
-        onClick={() => window.open('https://github.com/rickydev254', '_blank')}
+        onClick={() => window.open('https://github.com/rickydev254/ai-article-summarizer', '_blank')}
         className='black_btn'
         >Github</button>
       </nav>
